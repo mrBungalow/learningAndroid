@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+
+        android:id="@+id/listActivityButton"
+        android:text="Show Me The List!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/newText"
+        android:text="This is a new Activity!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/textEditing"
+        android:text="Editing Text here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/backActivityButton"
+        android:text="Back To OG Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
